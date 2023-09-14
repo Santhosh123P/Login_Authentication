@@ -1,0 +1,166 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #4158d0;
+  }
+  
+  input, button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4158d0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #centersList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  #centersList li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selectBtn {
+    background-color: #4158d0;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #bookingForm {
+    margin-top: 20px;
+  }
+  
+  #bookingForm input[type="hidden"] {
+    display: none;
+  }
+  
+  #bookingStatus {
+    margin-top: 20px;
+  }
+  
+  #statusMessage {
+    font-weight: bold;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+.location-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .location-selection label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #4158d0;
+  }
+  
+  .location-selection select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #050505;
+    background-color: #fff;
+  }
+  
+  /* Style the location dropdown arrow */
+  .location-selection select::-ms-expand {
+    display: none;
+  }
+  
+  .location-selection select::-webkit-select-placeholder {
+    color: #ccc;
+  }
+  
+  .location-selection select:-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  .location-selection select::-moz-placeholder {
+    color: #ccc;
+    opacity: 1;
+  }
+  
+  .location-selection select::placeholder {
+    color: #ccc;
+    opacity: 1;
+  }
+  
+  
+  .location-selection select option::before {
+    content: "➤ ";
+  }
+  #searchBtn {
+    background-color: #4158d0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #searchBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .label-location {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .remaining-slots {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    color: #555;
+    font-size: 25px;
+  }
